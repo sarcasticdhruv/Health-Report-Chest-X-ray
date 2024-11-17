@@ -71,17 +71,17 @@ def generate_report_summary(predictions):
         "Hernia": {"threshold": 0.72, "severity": "high"},
         "Pleural_Thickening": {"threshold": 0.61, "severity": "high"},
         "Fibrosis": {"threshold": 0.73, "severity": "high"},
-        "Emphysema": {"threshold": 0.54, "severity": "moderate"},
+        "Emphysema": {"threshold": 0.72, "severity": "moderate"},
         "Edema": {"threshold": 0.72, "severity": "high"},
         "Consolidation": {"threshold": 0.67, "severity": "moderate"},
         "Pneumothorax": {"threshold": 0.80, "severity": "critical"},
         "Pneumonia": {"threshold": 0.69, "severity": "high"},
-        "Nodule": {"threshold": 0.57, "severity": "moderate"},
+        "Nodule": {"threshold": 0.68, "severity": "moderate"},
         "Mass": {"threshold": 0.78, "severity": "high"},
         "Infiltration": {"threshold": 0.69, "severity": "moderate"},
-        "Effusion": {"threshold": 0.17, "severity": "moderate"},
+        "Effusion": {"threshold": 0.51, "severity": "moderate"},
         "Atelectasis": {"threshold": 0.58, "severity": "moderate"},
-        "Cardiomegaly": {"threshold": 0.59, "severity": "moderate"}
+        "Cardiomegaly": {"threshold": 0.65, "severity": "moderate"}
     }
 
     diseases = []
@@ -220,7 +220,7 @@ def main():
             margin-bottom: 20px;
             margin-top: 20px;
         }
-         .title {
+         .title2 {
             font-size: 2rem;
             color: #ffffff;
             text-align: center;
