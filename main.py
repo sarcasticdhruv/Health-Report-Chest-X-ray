@@ -69,7 +69,7 @@ def predict_diseases(image, model, threshold=0.5):
 def generate_report_summary(predictions):
     thresholds = {
         "Hernia": {"threshold": 0.72, "severity": "high"},
-        "Pleural_Thickening": {"threshold": 0.685, "severity": "high"},
+        "Pleural_Thickening": {"threshold": 0.61, "severity": "high"},
         "Fibrosis": {"threshold": 0.73, "severity": "high"},
         "Emphysema": {"threshold": 0.72, "severity": "moderate"},
         "Edema": {"threshold": 0.72, "severity": "high"},
@@ -80,7 +80,7 @@ def generate_report_summary(predictions):
         "Mass": {"threshold": 0.78, "severity": "high"},
         "Infiltration": {"threshold": 0.69, "severity": "moderate"},
         "Effusion": {"threshold": 0.57, "severity": "moderate"},
-        "Atelectasis": {"threshold": 0.67, "severity": "moderate"},
+        "Atelectasis": {"threshold": 0.62, "severity": "moderate"},
         "Cardiomegaly": {"threshold": 0.70, "severity": "moderate"}
     }
 
