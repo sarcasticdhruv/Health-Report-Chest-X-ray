@@ -218,6 +218,15 @@ def main():
             text-align: center;
             font-weight: bold;
             margin-bottom: 20px;
+            margin-top: 20px;
+        }
+         .title {
+            font-size: 2rem;
+            color: #ffffff;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+            margin-top: 20px;
         }
         .header {
             font-size: 1.5rem;
@@ -246,9 +255,10 @@ def main():
         """,
         unsafe_allow_html=True
     )
+    st.markdown('<div class="title">🩺 LungScope 🩺</div>', unsafe_allow_html=True)
 
     # Display title
-    st.markdown('<div class="title">Health Report - Chest X-ray Classification</div>', unsafe_allow_html=True)
+    st.markdown('<div class="title2">Health Report - Chest X-ray Classification</div>', unsafe_allow_html=True)
 
     # Display header
     st.markdown('<div class="header">Please upload a chest X-ray image</div>', unsafe_allow_html=True)
