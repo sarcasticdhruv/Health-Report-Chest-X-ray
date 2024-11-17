@@ -70,7 +70,7 @@ def generate_report_summary(predictions):
     thresholds = {
         "Hernia": {"threshold": 0.72, "severity": "high"},
         "Pleural_Thickening": {"threshold": 0.61, "severity": "high"},
-        "Fibrosis": {"threshold": 0.73, "severity": "high"},
+        "Fibrosis": {"threshold": 0.63, "severity": "high"},
         "Emphysema": {"threshold": 0.72, "severity": "moderate"},
         "Edema": {"threshold": 0.72, "severity": "high"},
         "Consolidation": {"threshold": 0.67, "severity": "moderate"},
