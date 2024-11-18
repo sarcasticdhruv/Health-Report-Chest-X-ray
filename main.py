@@ -251,6 +251,17 @@ def main():
             font-size: 1.8rem;
             color: #81c784;
         }
+         @media (max-width: 768px) {
+        .title {
+            font-size: 3rem;
+        }
+        .title2 {
+            font-size: 1.5rem;
+        }
+        .header {
+            font-size: 1.2rem;
+        }
+    }
         </style>
         """,
         unsafe_allow_html=True
