@@ -253,7 +253,7 @@ def main():
         }
          @media (max-width: 768px) {
         .title {
-            font-size: 3rem;
+            font-size: 2rem;
         }
         .title2 {
             font-size: 1.5rem;
